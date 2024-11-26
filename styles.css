@@ -313,11 +313,11 @@ body {
   
   /* Uniform sizing */
   height: 200px; /* Fixed height for all cards */
-  width: 200px; /* Fixed width (optional) */
+  width: 150px; /* Fixed width (optional) */
   
   display: flex; /* To center-align content */
   flex-direction: column; /* Arrange content vertically */
-  justify-content: space-between; /* Space between content */
+  justify-content: center; /* Space between content */
   align-items: center; /* Center align items */
   
   /* Add overflow handling if content exceeds the card size */
