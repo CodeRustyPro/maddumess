@@ -291,7 +291,7 @@ body {
 .menu-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive grid */
-  gap: 20px; /* Space between grid items */
+  gap: 30px; /* Space between grid items */
   justify-items: center;
 }
 .align-icon-text {
@@ -313,7 +313,7 @@ body {
   
   /* Uniform sizing */
   height: 200px; /* Fixed height for all cards */
-  width: 150px; /* Fixed width (optional) */
+  width: 160px; /* Fixed width (optional) */
   
   display: flex; /* To center-align content */
   flex-direction: column; /* Arrange content vertically */
@@ -330,7 +330,7 @@ body {
 .menu-item img {
 
   object-fit: cover; /* Ensures the image scales nicely */
-  margin-bottom: 10px; /* Space between image and text */
+  margin-bottom: 20px; /* Space between image and text */
 }
 
 .menu-item p {
