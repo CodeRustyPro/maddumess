@@ -46,7 +46,6 @@ body {
 .about-image {
   max-width: 80%;        
   height: auto;          
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 8px;  
 }
 
@@ -274,7 +273,6 @@ body {
   max-width: 100%;
   height: auto; /* Maintains aspect ratio */
   border-radius: 8px; /* Optional: Rounded corners */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
 }
 .menu {
   text-align: center;
