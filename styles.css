@@ -285,35 +285,49 @@ body {
 .menu h3 {
   font-size: 3rem;
 
-  font-family: "Urbanist", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
+  font-family: "Hammersmith One", serif;
+  font-style: normal;
   margin-bottom: 20px;
   color: #fdfdfd; 
 }
-
 .menu-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive grid */
   gap: 20px; /* Space between grid items */
   justify-items: center;
 }
+.align-icon-text {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.align-icon-text i {
+  margin-right: 8px; /* Space between icon and text */
+}
+
 
 .menu-item {
   text-align: center;
-  
   background-color: #E0A626; /* Light background for items */
   border-radius: 15px; /* Rounded corners */
-  padding: 15px;
+  padding: 5px;
   
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover effect */
+  /* Uniform sizing */
+  height: 200px; /* Fixed height for all cards */
+  width: 200px; /* Fixed width (optional) */
+  
+  display: flex; /* To center-align content */
+  flex-direction: column; /* Arrange content vertically */
+  justify-content: space-between; /* Space between content */
+  align-items: center; /* Center align items */
+  
+  /* Add overflow handling if content exceeds the card size */
+  overflow: hidden;
 }
 
-.menu-item:hover {
-  transform: translateY(-5px); /* Lift effect on hover */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
-}
+
+
 
 .menu-item img {
 
