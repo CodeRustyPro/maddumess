@@ -332,13 +332,12 @@ body {
 
 /* Contact Section */
 .contact {
-  text-align: center;
   padding: 40px 20px;
 }
 
 .contact h3 {
   color: #E0A626;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   margin-bottom: 20px;
   font-family: "Hammersmith One", sans-serif;
   font-weight: 400;
