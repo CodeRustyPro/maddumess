@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>About Us - Maddu Mess</title>
+  <style>
+    body{
+        background-color: #ED4427;
+    }
+    /* Add all styles from your provided template */
+    /* Use the existing CSS you provided for menu.html */
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar (Hamburger Menu) -->
+  <header class="header">
+    <div class="menu-toggle" id="menu-toggle">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <div class="logo">
+      <img src="assets/image 2.png" alt="Maddu Mess Logo" class="logo-image">
+    </div>
+  </header>
+
+  <nav class="navbar" id="navbar">
+    <div class="close-btn" id="close-btn">
+      <span><img src="assets/x-circle.png" alt=""></span>
+    </div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="locateus.html">Locate Us</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="https://www.google.com/search?q=maddu+mess&oq=maddu+mess+&gs_lcrp=EgZjaHJvbWUyDAgAEEUYORiABBiiBDIICAEQRRgnGDsyEggCEC4YJxivARjHARiABBiKBTIHCAMQABiABDIGCAQQRRg8MgYIBRBFGDwyBggGEEUYPDIGCAcQLhhA0gEIMzUzNGowajSoAgCwAgE&sourceid=chrome&ie=UTF-8#lrd=0x3be7c7f7cc119553:0x4ac9db01d1d6362f,3,,,," target="_blank">Feedback</a></li>
+
+    </ul>
+  </nav>
+
+  <!-- About Us Section -->
+  <section class="about">
+    <h1>About Us</h1>
+    <p>
+        Welcome to Maddu Mess, where tradition meets taste. Founded over four decades ago by the late Sri Kanakraj, a beloved cook at the Hostel 9 Mess of IIT Bombay, Maddu Mess has been a cornerstone of the community. Now lovingly managed by his wife, Paalthai, known fondly as ‘Aunty,’ our modest kitchen opens its doors from 4 to 8 AM to serve students, early risers, and food enthusiasts. Each dish is a testament to home-cooked South Indian cuisine, prepared with devotion and rooted in age-old recipes. Over the years, we’ve remained true to our mission: sharing the comfort of authentic meals while fostering a sense of belonging for everyone who visits.
+    </p>
+    <p>
+        Despite the challenges of urban development, which have made Maddu Mess more secluded, we are committed to reconnecting with our loyal patrons and reaching new ones. To adapt to changing times, we’re thrilled to introduce a mobile food cart that brings the cherished flavors of Maddu Mess to neighborhoods around Powai. This initiative ensures our soulful meals are more accessible while preserving the legacy of tradition and community. Whether you’re a long-time guest or a first-time visitor, we invite you to rediscover the warmth, resilience, and history that make Maddu Mess an experience to savor.
+    </p>
+    <div class="about-image-wrapper">
+        <img src="assets/Screenshot 2024-11-26 at 8.07.04 PM 1.png" alt="About Us" class="about-image">
+        <img src="assets/Screenshot 2024-11-26 at 8.13.28 PM 1.png" alt="About Us" class="about-image">
+        <img src="assets/image 6.png" alt="About Us" class="about-image">
+        <img src="assets/image 7.png" alt="About Us" class="about-image">
+      </div>
+      
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" style="background-color: white; ">
+    <h3>Contact Us !</h3>
+    <p style="color: #ED4427; "><span class="icon-phone"><i class="fas fa-phone"></i></span>+91 9769258247</p>
+    <p style="color: #ED4427; "><span class="icon-instagram"><i class="fab fa-instagram"></i></span> @maddu_mess</p>
+    <p style="color: #ED4427; "><span class="icon-web"><i class="fas fa-globe"></i></span> www.maddumess.com</p>
+  </section>
+
+  <script>
+    const menuToggle = document.getElementById("menu-toggle");
+    const navbar = document.getElementById("navbar");
+    const closeBtn = document.getElementById("close-btn");
+
+    menuToggle.addEventListener("click", () => {
+      navbar.classList.toggle("active");
+    });
+
+    closeBtn.addEventListener("click", () => {
+      navbar.classList.remove("active");
+    });
+  </script>
+</body>
+</html>

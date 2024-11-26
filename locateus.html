@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Locate Us</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
+
+   <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<style>
+  body{
+    background-color: white;
+    color: #ED4427;
+  }
+
+</style>
+<body>
+
+  <header class="header">
+    <div class="menu-toggle" id="menu-toggle">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <div class="logo">
+      <img src="assets/image 2.png" alt="Maddu Mess Logo" class="logo-image">
+    </div>
+  </header>
+
+
+  <nav class="navbar" id="navbar">
+    <div class="close-btn" id="close-btn">
+      <span><img src="assets/x-circle.png" alt="Close"></span>
+    </div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="locateus.html">Locate Us</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="https://www.google.com/search?q=maddu+mess&oq=maddu+mess+&gs_lcrp=EgZjaHJvbWUyDAgAEEUYORiABBiiBDIICAEQRRgnGDsyEggCEC4YJxivARjHARiABBiKBTIHCAMQABiABDIGCAQQRRg8MgYIBRBFGDwyBggGEEUYPDIGCAcQLhhA0gEIMzUzNGowajSoAgCwAgE&sourceid=chrome&ie=UTF-8#lrd=0x3be7c7f7cc119553:0x4ac9db01d1d6362f,3,,,," target="_blank">Feedback</a></li>
+
+    </ul>
+  </nav>
+
+
+  <section class="locate-us">
+    <h2 class="heading" style="text-align: center;">Locate Us</h2>
+
+  </section>
+
+
+  <section class="maddu-mess-info">
+    <h3>Maddu Mess</h3>
+    <div class="image-section">
+        <img src="assets/locate1.png" alt="Maddu Mess Kitchen" />
+    </div>
+    <ul>
+      <li><i class="fas fa-phone"></i>+91 9769258247</li>
+      <li><i class="fas fa-clock"></i>4:30 am - 9 am</li>
+      <li><i class="fas fa-map-marker-alt"></i>Near IIT Area, Tirandaz, Powai, Mumbai, Maharashtra 400076</li>
+    </ul>
+  </section>
+
+
+
+  <section class="maddu-wheels">
+    <h3>Maddu on Wheels</h3>
+    <section class="image-section">
+        <img src="assets/locate2.png" alt="Maddu Mess on Wheels" />
+      </section>
+      <ul>
+        <li><i class="fas fa-phone"></i>+91 9769258247</li>
+        <li><i class="fas fa-clock"></i> 10 am - 2:00 pm</li>
+        <li><i class="fas fa-map-marker-alt"></i> Near hostel 1 IIT, Students' Residential Zone, IIT Area, Powai, Mumbai, Maharashtra 400076</li>
+      </ul>
+
+  </section>
+
+  <section class="contact" style="background-color: #ED4427;">
+    <h3>Contact Us!</h3>
+    <p><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/maddumess/">Instagram</a></p>
+    <p><i class="fas fa-phone"></i> +91 9769258247</p>
+    <p><i class="fas fa-globe"></i> <a href="https://www.maddumess.com">Maddu Mess</a></p>
+  </section>
+
+  <script>
+
+    const menuToggle = document.getElementById('menu-toggle');
+    const navbar = document.getElementById('navbar');
+    const closeBtn = document.getElementById('close-btn');
+
+
+    menuToggle.addEventListener('click', () => {
+      navbar.classList.toggle('active');
+    });
+
+
+    closeBtn.addEventListener('click', () => {
+      navbar.classList.remove('active');
+    });
+  </script>
+</body>
+</html>
