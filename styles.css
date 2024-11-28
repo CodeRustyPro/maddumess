@@ -31,7 +31,7 @@ body {
 }
 .about p {
   font-family: "Urbanist", sans-serif;
-  color: #ffffff;
+  color: #F5ECD5;
   max-width: 800px;
   margin: 0 auto 20px auto;
 }
@@ -357,7 +357,7 @@ body {
 .contact h3 {
   color: #E0A626;
   font-size: 2.5rem;
-  margin-bottom: 20px;
+
   text-align: left;
 
   font-family: "Hammersmith One", sans-serif;
