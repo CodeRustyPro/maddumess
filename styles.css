@@ -364,7 +364,19 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+/* Video Wrapper */
+.video-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0; /* Space around the video */
+}
 
+.landing-video {
+  max-width: 90%;
+  height: auto;
+  border: 5px solid #E0A626; /* Optional border for aesthetics */
+  border-radius: 10px; /* Rounded edges for the video */
+}
 .contact p , .contact a{
   color:white;
   font-family: "Hammersmith One", sans-serif;

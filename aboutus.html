@@ -15,6 +15,20 @@
     body{
         background-color: #ED4427;
     }
+
+/* Video Wrapper */
+.video-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0; /* Space around the video */
+}
+
+.about-video {
+  max-width: 100%;
+  height: auto;
+  border: 5px solid #E0A626; /* Optional border for aesthetics */
+  border-radius: 10px; /* Rounded edges for the video */
+}
     /* Add all styles from your provided template */
     /* Use the existing CSS you provided for menu.html */
   </style>
@@ -52,7 +66,9 @@
     <p style="color: #F5ECD5;">
         Welcome to Maddu Mess, where tradition meets taste. Founded over four decades ago by the late Sri Kanakraj, a beloved cook at the Hostel 9 Mess of IIT Bombay, Maddu Mess has been a cornerstone of the community. Now lovingly managed by his wife, Paalthai, known fondly as ‘Aunty,’ our modest kitchen opens its doors from 4 to 8 AM to serve students, early risers, and food enthusiasts. Each dish is a testament to home-cooked South Indian cuisine, prepared with devotion and rooted in age-old recipes. Over the years, we’ve remained true to our mission: sharing the comfort of authentic meals while fostering a sense of belonging for everyone who visits.
     </p>
-    <br><br><br><br><br><br>
+    <div class="video-wrapper">
+      <video controls src="assets/maddumess.mp4" class="about-video"></video>
+    </div>
     <p style="color: #F5ECD5;">
         Despite the challenges of urban development, which have made Maddu Mess more secluded, we are committed to reconnecting with our loyal patrons and reaching new ones. To adapt to changing times, we’re thrilled to introduce a mobile food cart that brings the cherished flavors of Maddu Mess to neighborhoods around Powai. This initiative ensures our soulful meals are more accessible while preserving the legacy of tradition and community. Whether you’re a long-time guest or a first-time visitor, we invite you to rediscover the warmth, resilience, and history that make Maddu Mess an experience to savor.
     </p>
