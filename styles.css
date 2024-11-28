@@ -371,7 +371,7 @@ body {
   margin: 20px 0; /* Space around the video */
 }
 
-.landing-video {
+.landing-video , .about-video{
   max-width: 90%;
   height: auto;
   border: 5px solid #E0A626; /* Optional border for aesthetics */
